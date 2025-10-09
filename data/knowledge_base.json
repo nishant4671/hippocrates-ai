@@ -1,0 +1,62 @@
+[
+  {
+    "condition": "Common Cold",
+    "symptoms": ["runny nose", "sneezing", "sore throat", "cough", "congestion"],
+    "key_factors": {
+      "onset": "gradual",
+      "age_group": "all ages",
+      "red_flags": ["high fever", "difficulty breathing"]
+    },
+    "diagnostic_tests": ["None typically needed", "Symptom-based diagnosis"],
+    "differential": ["Influenza", "Allergic Rhinitis", "COVID-19"],
+    "source": "CDC Common Cold Guide"
+  },
+  {
+    "condition": "Influenza (Flu)",
+    "symptoms": ["fever", "chills", "muscle aches", "cough", "sore throat", "fatigue"],
+    "key_factors": {
+      "onset": "sudden",
+      "age_group": "all ages, but severe in young and old",
+      "red_flags": ["high fever persistent", "chest pain", "severe dehydration"]
+    },
+    "diagnostic_tests": ["Rapid Influenza Diagnostic Test (RIDT)", "PCR test"],
+    "differential": ["Common Cold", "COVID-19", "Strep Pharyngitis"],
+    "source": "CDC Influenza Guide"
+  },
+  {
+    "condition": "Strep Pharyngitis",
+    "symptoms": ["sore throat", "fever >101°F", "absent cough", "swollen lymph nodes", "headache"],
+    "key_factors": {
+      "onset": "rapid",
+      "age_group": "5-15 most common",
+      "red_flags": ["difficulty breathing", "inability to swallow fluids"]
+    },
+    "diagnostic_tests": ["Rapid Strep Test", "Throat Culture"],
+    "differential": ["Viral Pharyngitis", "Mononucleosis"],
+    "source": "Merck Manual Professional Version"
+  },
+  {
+    "condition": "COVID-19",
+    "symptoms": ["fever", "cough", "shortness of breath", "loss of taste or smell", "fatigue"],
+    "key_factors": {
+      "onset": "2-14 days after exposure",
+      "age_group": "all ages, severe in elderly",
+      "red_flags": ["severe respiratory distress", "oxygen saturation <94%"]
+    },
+    "diagnostic_tests": ["PCR test", "Antigen test"],
+    "differential": ["Influenza", "Common Cold", "Pneumonia"],
+    "source": "WHO COVID-19 Guidelines"
+  },
+  {
+    "condition": "Allergic Rhinitis",
+    "symptoms": ["sneezing", "runny nose", "itchy eyes", "nasal congestion"],
+    "key_factors": {
+      "onset": "seasonal or perennial",
+      "age_group": "all ages",
+      "red_flags": ["asthma symptoms", "severe allergic reaction"]
+    },
+    "diagnostic_tests": ["Allergy testing", "IgE levels"],
+    "differential": ["Common Cold", "Sinusitis"],
+    "source": "AAAAI Allergic Rhinitis Guidelines"
+  }
+]
